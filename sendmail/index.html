@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form em HTML para email em PHP</title>
+</head>
+
+<body>
+    <h1>Form em HTML para email em PHP</h1>
+    <hr>
+
+    <form action="https://joaogoncalves.net/teste-email/sendmail/send.php" method="post">
+        <div>
+            <label for="fname">Nome:</label><br>
+            <input type="text" id="fname" name="firstname" placeholder="Insira o seu nome">
+        </div> <br>
+
+        <div>
+            <label for="lname">Apelido:</label><br>
+            <input type="text" id="lname" name="lastname" placeholder="Insira o seu apelido"> <br>
+        </div><br>
+
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" placeholder="Insira o seu email">
+        </div> <br>
+
+        <div>
+            <label for="subject">Mensagem:</label><br>
+            <textarea id="subject" name="subject" placeholder="Envie-nos a sua mensagem" cols="30" rows="10"></textarea>
+        </div> <br>
+
+        <input type="submit" value="Enviar">
+
+
+    </form>
+</body>
+
+</html>
